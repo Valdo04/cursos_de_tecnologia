@@ -1,0 +1,8 @@
+| Passo | Comando                                          | Descrição                                            |
+|-------|--------------------------------------------------|------------------------------------------------------|
+| 1     | `git init`                                       | Inicializa um novo repositório Git no diretório atual. |
+| 2     | `git add .`                                      | Adiciona todas as alterações ao índice (staging area). |
+|       | `git branch -M main                              | Munda para main
+| 3     | `git commit -m "Mensagem do commit"`             | Realiza o primeiro commit com as alterações adicionadas. |
+| 4     | `git remote add origin <url-do-repositorio-remoto>` | Adiciona um repositório remoto chamado "origin". Substitua `<url-do-repositorio-remoto>` pelo URL do seu repositório remoto. |
+| 5     | `git push -u origin master`                     | Empurra as alterações para o repositório remoto (neste exemplo, o branch principal é "master"). Use `-u` na primeira vez para configurar o rastreamento. Depois, você pode usar apenas `git push`. |
